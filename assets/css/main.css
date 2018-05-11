@@ -516,8 +516,10 @@
 	}
 
 		#header img{
-			width:256px;
-			height:256px;
+			width:50%;
+			height:50%;
+			max-height: 256px;
+			max-width: 256px;
 			border-radius: 30%;
 		}
 
