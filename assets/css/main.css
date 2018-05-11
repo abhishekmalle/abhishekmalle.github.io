@@ -383,7 +383,6 @@
 
     @media screen and (max-width: 1680px) {
 
-        /* Basic */
 
             body, input, select, textarea {
                 font-size: 13pt;
@@ -409,6 +408,31 @@
 
     @media screen and (max-width: 480px) {
 
+        /* Basic */
+body, input, select, textarea {
+                font-size: 11pt;
+            }
+	/* Header */
+
+		#header h1 {
+			font-size: 2.5em;
+		}
+
+		#header p {
+			font-size: 1em;
+		}
+
+		#header nav {
+			font-size: 1em;
+		}
+
+			#header nav a:hover {
+				font-size: 1em;
+			}
+
+			#header nav a:active {
+				font-size: 1em;
+			} }
     /* BG */
     @keyframes bg {
 			0% {
@@ -416,7 +440,7 @@
 			}
 
 			100% {
-				transform: translate3d(-1500px,0,0);
+				transform: translate3d(-480px,0,0);
 			}
 		}
         #bg {
