@@ -6,7 +6,8 @@
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-    Modified by Abhishek Mallemadugula
+    Drastically modified by Abhishek Mallemadugula.
+    Do not expect same results using the other document
 */
 
 /* Reset */
@@ -59,9 +60,9 @@
 /* Basic */
 
     body, input, select, textarea {
-        color: #fff;
+        color: black;
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 15pt;
+        font-size: 2vmin;
         font-weight: 300 !important;
         letter-spacing: -0.025em;
         line-height: 1.75em;
@@ -261,9 +262,10 @@
         }
 
         #header p {
-            font-size: 1.25em;
-            margin: 0.75em 0 0.25em 0;
-            opacity: 0.75;
+            font-size: 2em;
+            margin: 0.75em 0 0.75em 0;
+            opacity: 1;
+            font-weight: 900;
         }
 
         #header nav {
@@ -331,7 +333,7 @@
                 #header nav a:before {
                     transition: all 0.2s ease-in-out;
                     border-radius: 100%;
-                    border: solid 1px #fff;
+                    border: solid 3px black;
                     display: block;
                     font-size: 1.75em;
                     height: 2.5em;
@@ -378,77 +380,3 @@
         text-align: center;
         width: 100%;
     }
-
-/* Wide */
-
-    @media screen and (max-width: 1680px) {
-
-
-            body, input, select, textarea {
-                font-size: 13pt;
-            }
-
-        /* BG */
-
-        @keyframes bg {
-			0% {
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				transform: translate3d(-1350px,0,0);
-			}
-		}
-        #bg {
-            background-size: auto 20%;
-            width: 4500px;
-        } }
-
-/* Mobile (Portrait) */
-
-    @media screen and (max-width: 480px) {
-
-        /* Basic */
-body, input, select, textarea {
-                font-size: 11pt;
-            }
-	/* Header */
-
-		#header h1 {
-			font-size: 2.5em;
-		}
-
-		#header p {
-			font-size: 1em;
-		}
-
-		#header nav {
-			font-size: 1em;
-		}
-
-			#header nav a:hover {
-				font-size: 1em;
-			}
-
-			#header nav a:active {
-				font-size: 1em;
-			} }
-    /* BG */
-    @keyframes bg {
-			0% {
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				transform: translate3d(-480px,0,0);
-			}
-		}
-        #bg {
-            background-size: auto 20%;
-            width: 1237.5px;
-        }
-
-    /* Header */
-        #header nav {
-            padding: 0 1em;
-        } }
