@@ -4,8 +4,8 @@
 <body>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script>
-    var width = 960,
-        height = 500;
+    var width = window.innerWidth,
+        height = window.innerHeight;
 
     var nodes = d3.range(200).map(function() { return { radius: 10 }; }),
         root = nodes[0],
