@@ -10,6 +10,18 @@ The Scrolling Background:
 	- Fades to a solid color either at the top of bottom (which is used to fill
 	  the empty space above or below your image).
 
+	Now, there are two ways to use it: with CSS, or with Sass:
+
+	CSS:
+
+		Look for this line in css/style.css (line 108 as of this writing):
+
+			background: #348cb2 url("images/bg.jpg") bottom left;
+
+		and use it to set the page background color, URL, and placement of
+		your image.
+
+
 Credits:
 
 	Background Image:
